@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Roboto' ,sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  p{
+    font-family:'Roboto' ,sans-serif;
+  }
+
+  .logo img{
+    border-radius: 150px;
+    padding: 10px;
+  }
+  
+  header .logo {
+    background: #FF5E5B;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav{
+    justify-content: space-around;
+    display: flex;
+  }
+
+  header nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FF5E5B;
+    padding: 20px;
+  }
+
+  header nav a:hover {
+    border-bottom: 2px solid #FF5E5B;
+  }
+  
+  .banner { 
+    background-image: url('/wwr/images/banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+    text-align: center; 
+    color: #FFED66; 
+    padding: 50px 0;
+    font-size: x-large;
+    font-family: 'playfair Display';
+    margin-top: 3px;
+    margin-bottom: 10px;
+    height: 350px;
+  }
+
+  .banner h2{
+    font-size: 4rem;
+  }
+  
+  .banner p{
+    font-family: 'Roboto', sans-serif;
+    color : white;
+    font-size: 2rem;
+    margin: 5px;
+  }
+  
+  #product-gallery {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 2px;
+  }
+
+  .product{
+    background-color: #D8D8D8;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product img{
+    width: 100%;
+    height: 200px;
+  }
+
+ 
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF5E5B;
+    padding: 10px;
+  }
+
+  .footer-section{
+    width: 30%;
+  }
+
+  .footer-section p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFEA;
+  }
+
+  .footer-section ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li{
+    margin-bottom: 5px;
+    color: #FFFFEA;
+  }
+
+  .footer-section ul li a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons li {
+    margin: 0 5px;
+  }
+
+  .social-icons li a{
+    font-size: 3rem;
+  }
+
+  main{
+    margin-bottom: 25px ;
+  }
+ 
