@@ -159,6 +159,59 @@ figcaption {
     text-align: center;
 }
 
+
+/*Contact Forms Style*/
+.mon, .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.employees{
+    text-align: center;
+}
+
+.employees figure img{
+    width: 250px;
+    height: 250px;
+}
+
+.employee-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;   
+    padding: 20px;
+}
+
+
+
+.button{
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin: 4px 2px;
+    font-size: large;
+}
+
 footer {
     background-color: var(--accent1-color);
     display: flex;
@@ -177,11 +230,11 @@ footer p{
     font-size: 17px;
     margin: 0;
     white-space: nowrap;
-    margin-left: 330px;
+    margin-left: 30px;
     margin-top: 25px;
 }
 
-footer nav a img{
+footer nav a svg{
     width: 35px;
     height: 35px;
     margin-left: 0px;
@@ -192,8 +245,10 @@ footer nav a{
     text-decoration: none;
 }
 
-
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 

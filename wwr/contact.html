@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Contact Rafting Travel for an exhilarating experience on the water! Whether you have inquiries, want to make a reservation, or have suggestions, we're here for you. Reach out to us via phone, email, or drop by our location to plan your next adventure." >
+    <meta name="author" content="Benjamin Asante">
+    <title>Rafting Travel | Contact Us</title>
+    <link rel="stylesheet" href="styles/aboutus.css" >
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <img src="images/logo.jpg" alt="Rafting Travel Logo" class="logo">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="trips.html">Trips</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+      <h1 class="mon">Contact Rafting Travel</h1>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 789 Adventure Ave, Thrill City, Wonderland</p>
+            <p><strong>Phone:</strong> (555) 987-6543 </p>
+            <p><strong>Email:</strong> info@thrilladventures.com</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345086196!2d144.95565131567846!3d-37.81732797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf4c8a2e1c32f8b0!2sMelbourne%20City%20Centre!5e0!3m2!1sen!2sau!4v1615785671234" 
+                    width="600" height="300" allowfullscreen="" loading="lazy" 
+                    title="Google Map showing the location of Rafting Travel Company">
+                </iframe>
+            </div>
+        </section>
+        <br>
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-container">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Doe - Tour Guide">
+                    <figcaption>Benjamin Asante - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Jane Smith - Customer Support">
+                    <figcaption>Hannah Benson - Customer Support</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mark Johnson - Safety Instructor">
+                    <figcaption>Mike Owens - Safety Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="post">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required>
+              <fieldset>
+                  <legend>Reason for Contacting Us:</legend>
+                  <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                  <label for="general-inquiry"> General Inquiry</label>
+
+                  <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                  <label for="reservation-question"> Reservation Question</label>
+
+                  <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion"> 
+                  <label for="website-suggestion">Website Suggestion</label>
+              </fieldset>
+              <br>
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+              <button type="submit" class="button">Submit</button>
+          </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;2025 | Rafting Travel | Benjamin Asante</p>
+      <p><a href="https://app.moqups.com/FCMn2I8S07tbuB1HHChJEeyAPzYYC8Ex/view/page/ad64222d5">View Wireframe</a></p>
+      <nav class="sociallinks">
+        <a href="https://facebook.com">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M9 8H7v4h2v12h5V12h3.642l.358-4H14V5.9a1 1 0 0 1 1-1H17V1h-2.618C9.795 1 9 2.263 9 5.037V8z"/>
+          </svg>
+          
+        </a>
+        <a href="https://twitter.com">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M22.23 5.924c-.806.36-1.675.605-2.587.713a4.51 4.51 0 0 0 1.98-2.485 9.045 9.045 0 0 1-2.867 1.096 4.516 4.516 0 0 0-3.29-1.42c-2.5 0-4.528 2.024-4.528 4.516 0 .354.037.698.118 1.03C7.693 8.154 4.09 6.128 1.671 2.9a4.515 4.515 0 0 0-.614 2.27c0 1.563.805 2.944 2.022 3.75-.746-.025-1.452-.23-2.064-.573v.057c0 2.18 1.554 4.002 3.618 4.417a4.522 4.522 0 0 1-2.057.078c.58 1.813 2.267 3.135 4.261 3.171a9.045 9.045 0 0 1-5.59 1.926A9.095 9.095 0 0 1 0 18.482 12.763 12.763 0 0 0 6.954 21c8.324 0 12.875-6.898 12.875-12.875 0-.197-.005-.393-.012-.589A9.172 9.172 0 0 0 24 6.2a9.02 9.02 0 0 1-2.59.71 4.5 4.5 0 0 0 1.978-2.485 9.044 9.044 0 0 1-2.868 1.096 4.507 4.507 0 0 0-2.29-.617z"/>
+          </svg>
+          
+        </a>
+        <a href="https://instagram.com">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12zm0 2c5.522 0 10 4.478 10 10s-4.478 10-10 10-10-4.478-10-10S6.478 2 12 2zm5.2 4.3a1.427 1.427 0 0 1 0 2.857 1.427 1.427 0 0 1 0-2.857zm-5.2 1.7a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm6.301 7.299a1 1 0 0 1-.924.601H5.623a1 1 0 0 1-.924-1.4A7.953 7.953 0 0 1 3 12a7.953 7.953 0 0 1 1.7-5.5 1 1 0 0 1 1.423-.06l1.816 1.816a1 1 0 0 1-.059 1.423c-.154.154-.3.32-.449.497a7.953 7.953 0 0 1 9.176 9.176c-.178.149-.343.295-.497.449-.241.241-.516.384-.799.524z"/>
+          </svg>
+          
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
