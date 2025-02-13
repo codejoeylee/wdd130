@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
 :root{
     --primary-color: #D32F2F;
     --secondary-color: #FFD700;
@@ -60,6 +61,7 @@ nav a {
     font-size: 1.5rem;
     padding: 10px;
     margin-right: 20px;
+    font-family: 'Playfair Display',sans-serif;
 }
 
 
@@ -81,6 +83,7 @@ nav a {
     text-align: center;
     margin-top: 30px;
     width: 100%;
+    font-family: 'Roboto',sans-serif;
   }
 
 
@@ -105,7 +108,8 @@ main article{
 
 main article p{
     color: var(--primary2-color);
-    font-size: 3rem;
+    font-size: larger;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 main article img{
@@ -160,6 +164,15 @@ figcaption {
 }
 
 
+
+.mon {
+    position: sticky;
+    top: 0; 
+    background-color: #FFD700; 
+    padding: 10px; 
+    z-index: 1000; 
+  }
+
 /*Contact Forms Style*/
 .mon, .contact-info {
     display: flex;
@@ -168,6 +181,14 @@ figcaption {
     background-color: var(--secondary-color);
 }
 
+
+
+
+
+
+
+
+/*
 
 .contact-form {
     background: #f9f9f9;
@@ -180,6 +201,81 @@ figcaption {
     display: block;
     margin-bottom: 10px;
 }
+
+*/
+
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #8B0000;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-form legend {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
 
 
 
@@ -203,14 +299,7 @@ figcaption {
 
 
 
-.button{
-    background-color: blue;
-    border-radius: 8px;
-    color: white;
-    padding: 10px;
-    margin: 4px 2px;
-    font-size: large;
-}
+
 
 footer {
     background-color: var(--accent1-color);
@@ -252,3 +341,244 @@ a{
 
 
 
+
+
+
+.newsletter-background {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    text-align: center; 
+    font-family: 'Roboto' ,sans-serif;
+  }
+  
+  .newsletter {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .newsletter h2 {
+      margin-bottom: 10px; 
+      color: #333;
+  }
+  
+  .newsletter p {
+      margin-bottom: 20px; 
+      color: #333333; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px; 
+    text-align: left; 
+  }
+  
+  .form-group label {
+    display: block; 
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  .button {
+    background-color: #8b0000 ;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+
+  .call-to-action {
+    margin-top: 20px; 
+    text-align: center; 
+    font-family: 'Playfair Display' , sans-serif;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  
+  .cta-button {
+    display: inline-block; 
+    background-color: #8b0000; 
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ec971f; 
+  }
+  
+
+
+  .grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color:#F0E68C;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    gap: 30px;
+  }
+
+  .img-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    gap:7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .img-container > div {
+    background-color: #f1f1f1;
+    border: 1px solid lightgoldenrodyellow;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .img-size{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    border:3px solid #FFFF00;
+  }
+
+  .image{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border:3px solid #FFFF00;
+  }
+  
+
+  .item1, .item2{
+    display: flex;
+  }
+
+  .item3{
+    display: block;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .item3 > h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .item1  p, .item2 p{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .item1  h2, .item2 h2{
+    font-family: 'Playfair Display', sans-serif;
+    color:#8B0000;
+  }
+
+  .itemA p, .itemB p,.itemC p{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+  }
+
+  .itemA h2, .itemB h2,.itemC h2{
+    font-family: 'Playfair Display', sans-serif;
+    color:#8B0000;
+    font-size: x-large;
+  }
+
+  .pbg{
+    background-color: #BDBDBD;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+
+
+
+
+
+
+  .table-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #8B0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #FFD700;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #8B0000;
+}
+
+tbody tr.even {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.head-font{
+  font-family: 'Playfair Display',sans-serif;
+}
